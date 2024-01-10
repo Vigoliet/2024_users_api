@@ -20,6 +20,11 @@ public class ConflictsController {
         return "Posting conflicts";
     }
 
+    @PutMapping("/conflicts")
+    public String putConflicts(){
+        return "Putting conflicts";
+    }
+
     @PatchMapping("/conflicts")
     public String patchConflicts(){
         return "Patching conflicts";
